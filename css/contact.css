@@ -1,0 +1,169 @@
+
+/*-----------map-----------*/
+.map {
+    text-align: center;
+
+    padding: 64px 0 89px;
+}
+
+.map__wrap {
+    display: flex;
+    justify-content: space-between;
+
+    padding-bottom: 84px;
+}
+
+.map__inner-title {
+    padding: 10px 0 14px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.map__inner-text,
+.map__inner-links  {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #666666;
+}
+
+.map__inner-link {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FAAD3D;
+
+}
+
+.map__img {
+    overflow: hidden;
+    position: relative;
+}
+
+.map__img-one {
+    width: 100%;
+}
+
+.map__img-two {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 4%;
+
+    padding: 1%;
+    border-radius: 50%;
+    background: #0096FF;
+}
+
+
+
+/*---------media map--------*/
+@media(max-width: 580px) {
+    .map__wrap {
+        display: block;
+    }
+}
+
+/*--------------forms------------*/
+.forms {
+    padding-bottom: 53px;
+}
+
+.forms__title {
+    text-align: center;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+
+    padding-bottom: 39px;
+}
+
+.form {
+    max-width: 840px;
+    margin: 0 auto;
+    
+}
+
+.form__wrap {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.form__inner-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+
+    padding:30px 0 5px;
+}
+
+.form__inner-input {
+    width: 405px;
+    height: 50px;
+}
+
+.form__input {
+    width: 100%;
+    height: 50px;
+}
+
+.textarea {
+    width: 100%;
+    resize: none;
+}
+
+.form__inner-input,
+.form__input,
+.textarea {
+    background: #F6F6F6;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.form__button-btn {
+    display: block;
+
+    padding: 14px 68px;
+    margin: 30px auto;
+
+    background: #0096FF;
+    border-radius: 5px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
+
+/*-----------media forms--------*/
+@media (max-width: 850px) {
+    .form {
+        max-width: 480px;
+    }
+    
+    .form__wrap {
+        display: block;
+    }
+    .form__inner-input{
+        width: 100%;
+    }
+        
+}

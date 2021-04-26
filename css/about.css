@@ -1,0 +1,293 @@
+
+/*---------- home --------*/
+.home {
+    background: #0096FF;
+    text-align: center;
+}
+
+.home__title {
+    padding: 42px 0 15px;
+
+    font-family: 'HelveticaBold';
+
+    font-size: 29px;
+    line-height: 33px;
+    color: #FFFFFF;
+
+}
+
+
+.home__inner {
+    display: flex;
+    justify-content: center;
+}
+
+.home__inner {
+    padding-bottom: 43px;
+}
+
+.home__inner,
+.home__inner-link {
+    font-family: 'HelveticaRegular';
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #222222;
+}
+.home__inner-text span{
+    padding: 0 3px;
+}
+
+/*------------------about------------*/
+.about {
+    padding: 72px 0;
+}
+
+.about__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.about__inner {
+    width: 571px;
+    padding-left: 10px;
+}
+
+.about__inner-subtitle {
+    font-size: 30px;
+    line-height: 64px;
+    color: #000000;
+
+}
+
+.about__inner-title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 64px;
+    color: #000000;
+
+}
+
+.about__inner-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #18191F;
+}
+
+/*----------media about--------*/
+@media (max-width: 920px){
+    .about__wrap {
+        display: block;
+        
+    }
+    .about__img {
+        width: 100%;
+    }
+    .about__inner {
+        width: 100%;
+        padding-top: 20px;
+    }
+    .about__inner-subtitle,
+    .about__inner-title {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .about__inner-subtitle {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    
+    .about__inner-title {
+        font-size: 28px;
+        line-height: 58px;
+    }
+
+    .about__inner-text {
+        font-size: 13px;
+        line-height: 24px;   
+    }
+}
+
+/*----------------best----------------------*/
+.best {
+    background: #F0F6FB;
+}
+
+.conteiner {}
+
+.best__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.best__inner {
+    width: 570px; 
+    padding-right: 10px;   
+}
+
+.best__inner-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 64px;
+    color: #000000;
+
+    padding: 73px 0 14px;
+
+}
+
+.best__inner-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #18191F;
+
+    padding-bottom: 72px;
+
+}
+
+.best__page {
+    width: 571px;
+    position: relative;
+}
+
+.best__page-img {
+    width: 100%;
+    height: 120%;
+    position: absolute;
+    top: -40px;
+}
+/*----------media best----------*/
+@media (max-width: 980px){
+    .best__wrap {
+        display: block;
+    }
+
+    .best__inner {
+        width: 100%;
+        padding: 0;
+    }
+
+    .best__inner-title {
+        text-align: center;
+    }
+
+    .best__page {
+        width: 100%;
+    }
+
+    .best__page-img {
+        position: static;                              
+    }
+}
+
+@media (max-width: 480px) {
+    .best__inner-title {
+        font-size: 22px;
+        line-height: 52px;        
+    }
+
+    .best__inner-text {
+        font-size: 12px;
+        line-height: 22px;
+    }
+}
+
+/*----------------clinic------------*/
+.clinic {
+    padding: 178px 0 66px;
+}
+
+.clinic__page {
+    max-width: 650px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.clinic__page-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+
+    padding-bottom: 20px;
+}
+
+.clinic__page-text {
+    font-family: 'HelveticaRegular';
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.clinic__wrap {
+    padding-top: 71px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.clinic__inner {
+    width: 260px;
+    padding: 0 5px;
+}
+
+.clinic__inner-title {
+    padding-bottom: 11px;
+
+    font-family: 'HelveticaBold';
+    font-size: 14px;
+    line-height: 16px;
+    color: #2296F9;
+}
+
+.clinic__inner-text {
+    font-family: 'HelveticaLight';
+    font-size: 12px;
+    line-height: 133.5%;
+    color: #000000;
+}
+
+/*----------media clinic---------*/
+@media (max-width: 980px){
+    .clinic {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 680px){
+    
+    .clinic__wrap {
+        display: grid;
+        grid-template-columns: 260px 260px;
+        grid-template-rows: 110px;
+    }
+}
+
+@media (max-width: 550px){
+    .clinic__wrap {
+        display: block;
+    }
+
+    .clinic__inner {
+        text-align: center;
+        padding: 20px 0;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 480px) {
+    .clinic__page-title {
+        font-size: 28px;
+        line-height: 41px;
+    }
+
+    .clinic__page-text {
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
+
+/*-----------specialists-----------*/

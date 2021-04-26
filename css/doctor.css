@@ -1,0 +1,43 @@
+/*--------------doctor__title--------*/
+.doctor__title {
+    padding-top: 100px;
+}
+/*----------media doctor__title-----------*/
+@media (max-width: 920px){
+    .doctor__title {
+    padding-top: 30px;
+}
+}
+/*-------------slick__wrap------------*/
+.slick__wrap .slick-dots {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 57px;
+}
+
+.slick__wrap .slick-dots button {
+    width: 46px;
+    height: 46px;
+    background: #F6F6F6;
+    color: #BBBBBB;
+    border: none;
+    padding: 7px;
+}
+
+.slick__wrap .slick-active button{
+    width: 46px;
+    height: 46px;
+    background: #0096FF;
+    color: #fff;
+}
+/*-----------media slick__wrap--------*/
+@media(max-width: 610px){
+    .slick__wrap .slick-dots {
+        padding-top: 20px;
+        justify-content: center;
+    }
+
+    .slick__wrap .slick-slide img {
+        margin: 0 auto;
+}
+}
