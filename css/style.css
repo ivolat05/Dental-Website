@@ -326,6 +326,10 @@ li {
         color:#fff;
     }
 
+    .--active {
+    	color: #0096FF;
+    }
+
     .header__page {
         position: absolute;
         top: 15%;
